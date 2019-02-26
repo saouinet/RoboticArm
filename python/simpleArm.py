@@ -40,16 +40,17 @@ def main():
 
   # Uncomment the loop below to test all of the functions
   #for i in xrange(2):
+  #for i in range(2): # python3 
   #  moveArm(roboArm,1,movement["light_on"])
   #  moveArm(roboArm,1,movement["shoulder_up"])
-  #  moveArm(1,movement["shoulder_down"])
-  #  moveArm(1,movement["elbow_down"])
-  #  moveArm(1,movement["elbow_up"])
-  #  moveArm(2,movement["wrist_up"])
-  #  moveArm(2,movement["wrist_down"])
-  #  moveArm(1,movement["grip_close"])
-  #  moveArm(0.8,movement["grip_open"])
-  #  moveArm(1,movement["light_off"])
+  #  moveArm(roboArm,1,movement["shoulder_down"])
+  #  moveArm(roboArm,1,movement["elbow_down"])
+  #  moveArm(roboArm,1,movement["elbow_up"])
+  #  moveArm(roboArm,2,movement["wrist_up"])
+  #  moveArm(roboArm,2,movement["wrist_down"])
+  #  moveArm(roboArm,1,movement["grip_close"])
+  #  moveArm(roboArm,0.8,movement["grip_open"])
+  #  moveArm(roboArm,1,movement["light_off"])
 
 # Call the main function if this file is executed
 if __name__ == '__main__':
